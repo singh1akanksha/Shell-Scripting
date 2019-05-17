@@ -1,0 +1,55 @@
+Write Shell script for below questions
+a. create a shell script to ask user a directory name and create it under /tmp?
+#!/bin/bash
+read -p "Enter dir name : " dir
+mkdir /tmp/$dir
+
+
+
+b. read in two numbers from the keyboard and print their sum
+#!/bin/bash
+echo -n "Enter the first number : "
+read num1
+echo -n "Enter the second number : "
+read num2
+sum=`expr $num1 + $num2`
+echo "sum of two value is $sum"
+
+OR
+
+#!/bin/bash
+# Take input from user and calculate sum.
+read -p "Enter first number: " num1
+read -p "Enter second number: " num2
+sum=$(( $num1 + $num2 ))
+echo "Sum is: $sum"  
+
+c. write a shell script that asks the user to type a word in filename, then tells the word count of that file.
+#!/bin/bash
+read -p "Type a word" wrd
+wc -w filename
+
+d. Write shell script that adds and extension ".new" to all the files in a directory (take from user)
+#!/bin/bash
+read -p "Type a directory" dir
+for file in `ls $dir/*`
+do
+mv $file $file.new
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
