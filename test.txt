@@ -1,8 +1,14 @@
 conflict
+commit 1
 dffdfdgfgfd
 gfdgdfgdfg
 
 
 fixxxxx
- 
+sddsffds
+fdsf
+dsfds
+fsdf
+sdf
+df 
 dfgtest file for using git
