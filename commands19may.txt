@@ -1,0 +1,310 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  cd /
+    5  ls
+    6  ls -lrt
+    7  whoami
+    8  pwd
+    9  cd home
+   10  ls
+   11  se
+   12  set
+   13  mkdir test
+   14  ls
+   15  cat test
+   16  vi test
+   17  cat test
+   18  sudo nano test
+   19  w
+   20  who am i
+   21  du -sh test/
+   22  w
+   23  tree
+   24  mkdir -p test/weekday/saturday/
+   25  tree
+   26  echo $PATH
+   27  whereis tree
+   28  echo $PATH
+   29  cyum install tree
+   30  yum install tree
+   31  tree
+   32  where is treee
+   33  where is tree
+   34  whereis tree
+   35  ls
+   36  vim test
+   37  vi test
+   38  ls
+   39  cd test/
+   40  ls
+   41  cd weekday/
+   42  ls
+   43  ls -lrt
+   44  vi file
+   45  cat file
+   46  vi file 
+   47  whoami
+   48  history
+   49  ls
+   50  du -sh file 
+   51  ls
+   52  vi akanksha
+   53  cat akanksha 
+   54  vi akanksha 
+   55  caak
+   56  cat akanksha 
+   57  vi +5 akanksha 
+   58  whoami
+   59  history
+   60  ls -lrt
+   61  du -sh akanksha 
+   62  df -h akanksha 
+   63  set
+   64  w
+   65  echo $PATH
+   66  ls -lrt
+   67  ls -lrt | tail -3
+   68  ls -l /etc/shadow
+   69  ls
+   70  top
+   71  ps -ef
+   72  cat /etc/passwd
+   73  ping google.comping google.com
+   74  ping google.com
+   75  vi /etc/services
+   76  ls
+   77  vi akanksha 
+   78  cat akanksha 
+   79  sh akanksha
+   80  mkdir new
+   81  ls
+   82  cd new
+   83  ls
+   84  vi test1
+   85  vi test2
+   86  ls
+   87  cd .. / ..
+   88  ls
+   89  sh akanksha 
+   90  cd new/
+   91  ls
+   92  cd /usr/local/
+   93  ls
+   94  cd .. / ..
+   95  ls
+   96  yum install https://git-scm.com/download/win
+   97  ls
+   98  yum install git
+   99  ls
+  100  cd /usr/
+  101  ls
+  102  cd local/
+  103  ls
+  104  cd /etc/
+  105  ls
+  106  grep git
+  107  cd .. / ..
+  108  pwd
+  109  cd /usr/
+  110  ls
+  111  cd lib
+  112  ls
+  113  cd modules
+  114  ls
+  115  cd .. / ..
+  116  pwd
+  117  cd .. / ..
+  118  pwd
+  119  cd local/
+  120  git clone https://github.com/singh1akanksha/Shell-Scripting.git
+  121  ls
+  122  cd Shell-Scripting/
+  123  ls
+  124  vi test.txt
+  125  cat test.txt 
+  126  git status
+  127  git remote -v
+  128  ls -la
+  129  git status
+  130  git add .
+  131  gi status
+  132  git status
+  133  vi test1.txt
+  134  git status
+  135  git .a
+  136  git add .a
+  137  git status
+  138  git rm -test1.txt
+  139  git status
+  140  g
+  141  cd /usr/local/
+  142  cd Shell-Scripting/
+  143  giit status
+  144  git status
+  145  git add .
+  146  git status
+  147  git config --global user.email "akanksha12345singh@gmail.com"
+  148  git config --global user.name "akanksha"
+  149  ls
+  150  git commit -m "my first commit"
+  151  git status
+  152  git push
+  153  git log
+  154  git log --oneline
+  155  vi ~/.netrc
+  156  cat ~/.netrc
+  157  git staus
+  158  git status
+  159  ls
+  160  vi test.txt 
+  161  git add .
+  162  git status
+  163  git commit -m "push 2"
+  164  git push
+  165  git log --oneline
+  166  git revert ccdeed2
+  167  git status
+  168  git push 
+  169  git status
+  170  git log --oneline
+  171  git revert ccdeed2
+  172  git add -a
+  173  git status
+  174  git clean -f
+  175  git status
+  176  git pull 
+  177  git add -a
+  178  git status
+  179  git diff
+  180  git add test.txt 
+  181  git status
+  182  git revert --continue
+  183  git status
+  184  git log --oneline
+  185  git push 
+  186  git branch
+  187  git fetch -r
+  188  git branch akanksha
+  189  git branch
+  190  git checkout akanksha
+  191  git branch
+  192  git checkout -b develop
+  193  git branch
+  194  git checkout akanksha
+  195  git branch
+  196  ls
+  197  vi test.txt 
+  198  cat test.txt 
+  199  git add test.txt
+  200  git status
+  201  git commit -m "commit for fix"
+  202  git checkout master
+  203  ls -lrt
+  204  git merge akanksha
+  205  git checkout akanksha
+  206  git branch
+  207  git push -u origin akanksha
+  208  git branch
+  209  git checkout master
+  210  git push 
+  211  git branch
+  212  ls
+  213  vi test.txt 
+  214  git add .
+  215  git commit -m "conflict"
+  216  git checkout akanksha
+  217  ls
+  218  vi test.txt 
+  219  git add .
+  220  git commit -m "confict1"
+  221  git cheeckout master
+  222  git checkout master
+  223  git merge akanksha
+  224  ls
+  225  vi test.txt 
+  226  git merge akanksha
+  227  git commit -m "conflict"
+  228  git push -u origin master
+  229  git checkout master
+  230  git status
+  231  ls
+  232  vi test.txt 
+  233  git add .
+  234  git commit -m "commit rebase1"
+  235  git push 
+  236  vi test.txt 
+  237  git add .
+  238  git commit -m "rebase2 commit"
+  239  git push
+  240  git status
+  241  git checkout akanksha
+  242  git branch
+  243  git rebase master
+  244  git remote -v
+  245  git branch -r
+  246  cd .. / ..
+  247  mkdir mylocalrepo
+  248  cd mylocalrepo/
+  249  ls -la
+  250  vi file.txt
+  251  cd usr/local
+  252  cd /usr/local/
+  253  ls
+  254  cd mylocalrepo/
+  255  ls
+  256  vi test.txt
+  257  git init
+  258  git add .
+  259  git commit -m "initializze"
+  260  git log --oneline
+  261  git ls
+  262  ls -la
+  263  git push -u origin mylocalrepo
+  264  git remote -v
+  265  git push -u origin mylocalrepo
+  266  git reote -v
+  267  git remote -v
+  268  ls
+  269  cd /usr/l
+  270  cd /usr/local
+  271  ls
+  272  cd Shell-Scripting/
+  273  ls
+  274  vi test.txt 
+  275  git status
+  276  git branch
+  277  git checkout master
+  278  vi test.txt 
+  279  git status
+  280  git add .
+  281  git status
+  282  git stash save "writing poem in this file"
+  283  git stash list
+  284  git status
+  285  vi test.txt 
+  286  cat test.txt 
+  287  git status
+  288  git commit -m "hao"
+  289  git status
+  290  git stash list
+  291  git stash  pop stash@{0}
+  292  git stash pop stash@{0}
+  293  git status
+  294  git commit -m "dfsdf"
+  295  git stATUS
+  296  git status
+  297  git stash pop stash@{0}
+  298  git stash list
+  299  git branch
+  300  git push
+  301  git status
+  302  git add .
+  303  git status
+  304  git reset HEAD test.txt 
+  305  git statu
+  306  git status
+  307  git add .
+  308  git status
+  309  history > /home/centos/commandsbackup.txt
+  310  history > commands19may.txt
